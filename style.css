@@ -1,0 +1,79 @@
+body {
+    background-image: url('question-mark.jpg');
+}
+
+h1,
+h2 {
+    color: #d7182a;
+}
+
+.center {
+    text-align: center;
+}
+
+ .default-color{
+  background-color: #d7182a;
+  color: #fff;
+  font-weight: bold;
+  margin: 20px;
+  border-radius: 5px;
+  border-color: #fff; 
+ }
+
+#player-input{
+  height: 100px;
+  border-radius: 100%; 
+  width: 100px;
+  font-size: 42px;
+  margin-left: 40px
+}
+
+.btn-go{
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  right:22px;
+  top: 6px;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px
+}
+.guess{
+  display: inline-block;
+  margin: 10px;
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #d7182a;
+  border-radius: 5px;
+}
+
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+#footer img {
+    margin: 0 auto;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
